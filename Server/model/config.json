@@ -1,0 +1,47 @@
+{
+  "_name_or_path": "../content/PhoBERT_base_transformers/model.bin",
+  "architectures": [
+    "RobertaForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.2,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "eos_token_ids": 0,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.2,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Disgust",
+    "1": "Enjoyment",
+    "2": "Sadness",
+    "3": "Fear",
+    "4": "Anger",
+    "5": "Other"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Anger": 4,
+    "Disgust": 0,
+    "Enjoyment": 1,
+    "Fear": 3,
+    "Other": 5,
+    "Sadness": 2
+  },
+  "layer_norm_eps": 1e-06,
+  "max_length": 30,
+  "max_position_embeddings": 258,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "single_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.25.1",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 64001
+}
